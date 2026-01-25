@@ -2,7 +2,7 @@ import { test, expect } from './base';
 
 test.describe('EPIC MYM-28: Session Management', () => {
   
-  test('MYM-30: Mentor configures communication channels', async ({ ctx }) => {
+  test('MYM-30: Mentor configures communication channels @smoke @regression', async ({ ctx }) => {
     await ctx.loginPage.navigate();
     await ctx.loginPage.loginSuccessfully('mentor.jlb984@mailinator.com', '8Ap972DAZn3Z239@');
     
@@ -22,7 +22,7 @@ test.describe('EPIC MYM-28: Session Management', () => {
     });
   });
 
-  test('MYM-29: User views session dashboard (Empty State)', async ({ ctx }) => {
+  test('MYM-29: User views session dashboard (Empty State) @smoke @regression', async ({ ctx }) => {
     await ctx.loginPage.navigate();
     await ctx.loginPage.loginSuccessfully('mentor.jlb984@mailinator.com', '8Ap972DAZn3Z239@');
     

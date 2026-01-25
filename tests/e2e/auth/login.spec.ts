@@ -2,12 +2,12 @@ import { test } from '../../base';
 
 test.describe('Login Functionality', () => {
 
-  test('should login successfully as Mentor @happy-path', async ({ ui }) => {
+  test('should login successfully as Mentor @happy-path @smoke @regression', async ({ ui }) => {
     await ui.login.navigate();
     await ui.login.loginSuccessfully('mentor.jlb984@mailinator.com', '8Ap972DAZn3Z239@');
   });
 
-  test('should login successfully as Mentee @happy-path', async ({ ui }) => {
+  test('should login successfully as Mentee @happy-path @smoke @regression', async ({ ui }) => {
     await ui.login.navigate();
     await ui.login.loginSuccessfully('mentee.jlb984@mailinator.com', '8Ap972DAZn3Z239@');
   });

@@ -1,0 +1,166 @@
+### Page state
+- Page URL: https://staging-upexmymentor.vercel.app/
+- Page Title: MyMentor - Connect with Tech Mentors
+- Page Snapshot:
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic:
+        - img
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - link "MyMentor Logo MyMentor" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "MyMentor Logo" [ref=e7]
+          - generic [ref=e8]: MyMentor
+        - generic [ref=e9]:
+          - link "Explorar Mentores" [ref=e10] [cursor=pointer]:
+            - /url: /mentors
+          - link "Cómo Funciona" [ref=e11] [cursor=pointer]:
+            - /url: /how-it-works
+          - link "Iniciar Sesión" [ref=e12] [cursor=pointer]:
+            - /url: /login
+            - button "Iniciar Sesión" [ref=e13]
+          - link "Registrarse" [ref=e14] [cursor=pointer]:
+            - /url: /signup
+            - button "Registrarse" [ref=e15]
+          - button "Cambiar a modo oscuro" [ref=e16] [cursor=pointer]:
+            - img
+            - generic [ref=e17]: Cambiar tema
+    - main [ref=e18]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - img [ref=e24]
+          - generic [ref=e26]: Conecta con expertos verificados
+        - heading "Acelera tu carrera tech con mentoría personalizada" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Marketplace que conecta ingenieros senior verificados con estudiantes y profesionales tech en sesiones 1-a-1 de alto impacto.
+        - generic [ref=e29]:
+          - link "Explorar Mentores" [ref=e30] [cursor=pointer]:
+            - /url: /mentors
+            - button "Explorar Mentores" [ref=e31]:
+              - text: Explorar Mentores
+              - img
+          - link "Cómo Funciona" [ref=e32] [cursor=pointer]:
+            - /url: /how-it-works
+            - button "Cómo Funciona" [ref=e33]
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e41]: 50+
+            - generic [ref=e42]: Mentores Verificados
+          - generic [ref=e43]:
+            - img [ref=e44]
+            - generic [ref=e47]: 1000+
+            - generic [ref=e48]: Sesiones Completadas
+          - generic [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e52]: 4.9/5
+            - generic [ref=e53]: Valoración Promedio
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - heading "Cómo Funciona" [level=2] [ref=e57]
+          - paragraph [ref=e58]: Empezar es simple. Sigue estos pasos para conectar con tu mentor ideal.
+        - generic [ref=e59]:
+          - generic [ref=e61]:
+            - generic [ref=e63]: "1"
+            - img [ref=e65]
+            - heading "Encuentra tu Mentor" [level=3] [ref=e68]
+            - paragraph [ref=e69]: Busca y filtra entre mentores verificados por tecnología, experiencia y precio.
+          - generic [ref=e71]:
+            - generic [ref=e73]: "2"
+            - img [ref=e75]
+            - heading "Agenda una Sesión" [level=3] [ref=e77]
+            - paragraph [ref=e78]: Selecciona un horario que funcione para ti y reserva tu sesión 1-a-1.
+          - generic [ref=e80]:
+            - generic [ref=e82]: "3"
+            - img [ref=e84]
+            - heading "Conecta y Aprende" [level=3] [ref=e87]
+            - paragraph [ref=e88]: Únete a la videollamada y recibe mentoría personalizada de alto impacto.
+          - generic [ref=e90]:
+            - generic [ref=e92]: "4"
+            - img [ref=e94]
+            - heading "Deja tu Feedback" [level=3] [ref=e96]
+            - paragraph [ref=e97]: Valora tu experiencia y ayuda a la comunidad con tu opinión honesta.
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - heading "¿Por qué MyMentor?" [level=2] [ref=e101]
+          - paragraph [ref=e102]: Una plataforma diseñada para garantizar confianza, calidad y resultados en cada interacción.
+        - generic [ref=e103]:
+          - generic [ref=e105]:
+            - img [ref=e107]
+            - heading "Mentores Verificados" [level=3] [ref=e109]
+            - paragraph [ref=e110]: Todos nuestros mentores pasan por un riguroso proceso de verificación de credenciales y experiencia.
+          - generic [ref=e112]:
+            - img [ref=e114]
+            - heading "Horarios Flexibles" [level=3] [ref=e117]
+            - paragraph [ref=e118]: Agenda sesiones que se ajusten a tu zona horaria y disponibilidad. Tú tienes el control.
+          - generic [ref=e120]:
+            - img [ref=e122]
+            - heading "Transparencia de Precios" [level=3] [ref=e124]
+            - paragraph [ref=e125]: Conoce la tarifa por hora de cada mentor antes de agendar. Sin costos ocultos.
+          - generic [ref=e127]:
+            - img [ref=e129]
+            - heading "Sistema de Reputación" [level=3] [ref=e131]
+            - paragraph [ref=e132]: Valoraciones bidireccionales que aseguran calidad tanto de mentores como de estudiantes.
+    - contentinfo [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - img "MyMentor Logo" [ref=e138]
+              - generic [ref=e139]: MyMentor
+            - paragraph [ref=e140]: Conectando talento tech con mentores expertos para acelerar tu crecimiento profesional.
+          - generic [ref=e141]:
+            - heading "Plataforma" [level=3] [ref=e142]
+            - list [ref=e143]:
+              - listitem [ref=e144]:
+                - link "Explorar Mentores" [ref=e145] [cursor=pointer]:
+                  - /url: /mentors
+              - listitem [ref=e146]:
+                - link "Cómo Funciona" [ref=e147] [cursor=pointer]:
+                  - /url: /how-it-works
+              - listitem [ref=e148]:
+                - link "Precios" [ref=e149] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=e150]:
+                - link "Conviértete en Mentor" [ref=e151] [cursor=pointer]:
+                  - /url: /become-mentor
+          - generic [ref=e152]:
+            - heading "Compañía" [level=3] [ref=e153]
+            - list [ref=e154]:
+              - listitem [ref=e155]:
+                - link "Sobre Nosotros" [ref=e156] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e157]:
+                - link "Blog" [ref=e158] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=e159]:
+                - link "Contacto" [ref=e160] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e161]:
+                - link "Carreras" [ref=e162] [cursor=pointer]:
+                  - /url: /careers
+          - generic [ref=e163]:
+            - heading "Legal" [level=3] [ref=e164]
+            - list [ref=e165]:
+              - listitem [ref=e166]:
+                - link "Privacidad" [ref=e167] [cursor=pointer]:
+                  - /url: /privacy
+              - listitem [ref=e168]:
+                - link "Términos" [ref=e169] [cursor=pointer]:
+                  - /url: /terms
+            - generic [ref=e170]:
+              - link [ref=e171] [cursor=pointer]:
+                - /url: https://twitter.com
+                - img [ref=e172]
+              - link [ref=e174] [cursor=pointer]:
+                - /url: https://linkedin.com
+                - img [ref=e175]
+              - link [ref=e179] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e180]
+        - paragraph [ref=e184]: © 2026 MyMentor. Todos los derechos reservados.
+  - region "Notifications alt+T"
+  - alert [ref=e185]
+```

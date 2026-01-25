@@ -5,10 +5,13 @@
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.10",
-    "typescript": "^5.0.0"
+    "allure-playwright": "^3.4.5",
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
     "type-check": "tsc --noEmit",
     "lint": "echo 'Linting skipped (eslint not configured)'"
   }

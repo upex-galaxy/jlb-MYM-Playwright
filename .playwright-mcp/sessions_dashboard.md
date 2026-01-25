@@ -1,0 +1,98 @@
+### Page state
+- Page URL: https://staging-upexmymentor.vercel.app/dashboard/sessions
+- Page Title: MyMentor - Connect with Tech Mentors
+- Page Snapshot:
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic:
+        - img
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - link "MyMentor Logo MyMentor" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "MyMentor Logo" [ref=e7]
+          - generic [ref=e8]: MyMentor
+        - generic [ref=e9]:
+          - link "Explorar Mentores" [ref=e10] [cursor=pointer]:
+            - /url: /mentors
+          - link "Cómo Funciona" [ref=e11] [cursor=pointer]:
+            - /url: /how-it-works
+          - button "Cambiar a modo oscuro" [ref=e15] [cursor=pointer]:
+            - img
+            - generic [ref=e16]: Cambiar tema
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - heading "Mis Sesiones" [level=1] [ref=e21]
+          - paragraph [ref=e22]: Gestiona tus sesiones de mentoría
+        - generic [ref=e24]:
+          - tablist [ref=e25]:
+            - tab "Próximas (0)" [selected] [ref=e26] [cursor=pointer]
+            - tab "Pasadas (0)" [ref=e27] [cursor=pointer]
+          - tabpanel "Próximas (0)" [ref=e28]:
+            - generic [ref=e29]:
+              - img [ref=e30]
+              - paragraph [ref=e32]: No tienes sesiones programadas. Tus estudiantes aparecerán aquí.
+    - contentinfo [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - img "MyMentor Logo" [ref=e38]
+              - generic [ref=e39]: MyMentor
+            - paragraph [ref=e40]: Conectando talento tech con mentores expertos para acelerar tu crecimiento profesional.
+          - generic [ref=e41]:
+            - heading "Plataforma" [level=3] [ref=e42]
+            - list [ref=e43]:
+              - listitem [ref=e44]:
+                - link "Explorar Mentores" [ref=e45] [cursor=pointer]:
+                  - /url: /mentors
+              - listitem [ref=e46]:
+                - link "Cómo Funciona" [ref=e47] [cursor=pointer]:
+                  - /url: /how-it-works
+              - listitem [ref=e48]:
+                - link "Precios" [ref=e49] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=e50]:
+                - link "Conviértete en Mentor" [ref=e51] [cursor=pointer]:
+                  - /url: /become-mentor
+          - generic [ref=e52]:
+            - heading "Compañía" [level=3] [ref=e53]
+            - list [ref=e54]:
+              - listitem [ref=e55]:
+                - link "Sobre Nosotros" [ref=e56] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e57]:
+                - link "Blog" [ref=e58] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=e59]:
+                - link "Contacto" [ref=e60] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e61]:
+                - link "Carreras" [ref=e62] [cursor=pointer]:
+                  - /url: /careers
+          - generic [ref=e63]:
+            - heading "Legal" [level=3] [ref=e64]
+            - list [ref=e65]:
+              - listitem [ref=e66]:
+                - link "Privacidad" [ref=e67] [cursor=pointer]:
+                  - /url: /privacy
+              - listitem [ref=e68]:
+                - link "Términos" [ref=e69] [cursor=pointer]:
+                  - /url: /terms
+            - generic [ref=e70]:
+              - link [ref=e71] [cursor=pointer]:
+                - /url: https://twitter.com
+                - img [ref=e72]
+              - link [ref=e74] [cursor=pointer]:
+                - /url: https://linkedin.com
+                - img [ref=e75]
+              - link [ref=e79] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e80]
+        - paragraph [ref=e84]: © 2026 MyMentor. Todos los derechos reservados.
+  - region "Notifications alt+T"
+  - alert [ref=e85]
+```

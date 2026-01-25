@@ -1,7 +1,7 @@
 import { test, expect } from '../base';
 import { CommunicationChannel } from '../../src/core/api/types';
 
-test.describe('MYM-28 API Integration Tests', () => {
+test.describe('MYM-28 API Integration Tests @regression', () => {
 
   test.fixme('MYM-134: Get upcoming bookings', async ({ api }) => {
     const [response, bookings] = await api.bookings.getBookings('upcoming');
