@@ -47,7 +47,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: allure-results
+          name: allure-results-smoke
           path: allure-results/
           retention-days: 1
 
@@ -69,7 +69,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: allure-results
+          name: allure-results-regression
           path: allure-results/
           retention-days: 1
 
@@ -81,20 +81,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Download Allure Results
+      - name: Download Allure Results (Smoke)
         uses: actions/download-artifact@v4
         with:
-          name: allure-results
+          name: allure-results-smoke
           path: allure-results
         continue-on-error: true
 
-      - name: Get Allure history
-        uses: actions/checkout@v4
-        if: always()
-        continue-on-error: true
+      - name: Download Allure Results (Regression)
+        uses: actions/download-artifact@v4
         with:
-          ref: gh-pages
-          path: gh-pages
+          name: allure-results-regression
+          path: allure-results
+        continue-on-error: true
 
       - name: Allure Report action
         uses: simple-elf/allure-report-action@master
@@ -111,3 +110,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
+          force_orphan: true
