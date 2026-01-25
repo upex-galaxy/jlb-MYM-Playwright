@@ -4,7 +4,12 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
-    "@types/node": "^25.0.10"
+    "@types/node": "^25.0.10",
+    "typescript": "^5.0.0"
   },
-  "scripts": {}
+  "scripts": {
+    "test": "playwright test",
+    "type-check": "tsc --noEmit",
+    "lint": "echo 'Linting skipped (eslint not configured)'"
+  }
 }
