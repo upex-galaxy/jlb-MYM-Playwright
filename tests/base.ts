@@ -18,4 +18,14 @@ export const test = base.extend<{ ctx: TestContext; api: ApiFixture; ui: UiFixtu
   }
 });
 
+test.afterEach(async ({ page }, testInfo) => {
+  if (testInfo.status === 'passed' || testInfo.status === 'failed') {
+    const screenshot = await page.screenshot({ fullPage: true });
+    await testInfo.attach('Validación Final', {
+      body: screenshot,
+      contentType: 'image/png',
+    });
+  }
+});
+
 export { expect } from '@playwright/test';
