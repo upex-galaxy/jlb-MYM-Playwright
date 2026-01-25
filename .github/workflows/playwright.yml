@@ -95,6 +95,14 @@ jobs:
           path: allure-results
         continue-on-error: true
 
+      - name: Get Allure history
+        uses: actions/checkout@v4
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: allure-history
+
       - name: Allure Report action
         uses: simple-elf/allure-report-action@master
         if: always()
