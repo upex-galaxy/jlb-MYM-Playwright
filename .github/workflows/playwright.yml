@@ -8,6 +8,7 @@ on:
   schedule:
     # Every Monday at 5:00 AM UTC
     - cron: '0 5 * * 1'
+  workflow_dispatch: # Allows manual execution from GitHub Actions tab
 
 jobs:
   check-quality:
