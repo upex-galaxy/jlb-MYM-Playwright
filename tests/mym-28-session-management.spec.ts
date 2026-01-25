@@ -4,7 +4,7 @@ test.describe('EPIC MYM-28: Session Management', () => {
   
   test('MYM-30: Mentor configures communication channels', async ({ ctx }) => {
     await ctx.loginPage.navigate();
-    await ctx.loginPage.login('mentor.jlb984@mailinator.com', '8Ap972DAZn3Z239@');
+    await ctx.loginPage.loginSuccessfully('mentor.jlb984@mailinator.com', '8Ap972DAZn3Z239@');
     
     // Verify Dashboard
     await expect(ctx.page).toHaveURL(/dashboard/);
@@ -24,7 +24,7 @@ test.describe('EPIC MYM-28: Session Management', () => {
 
   test('MYM-29: User views session dashboard (Empty State)', async ({ ctx }) => {
     await ctx.loginPage.navigate();
-    await ctx.loginPage.login('mentor.jlb984@mailinator.com', '8Ap972DAZn3Z239@');
+    await ctx.loginPage.loginSuccessfully('mentor.jlb984@mailinator.com', '8Ap972DAZn3Z239@');
     
     await ctx.dashboardPage.goToSessions();
     await ctx.dashboardPage.verifyTabs();
