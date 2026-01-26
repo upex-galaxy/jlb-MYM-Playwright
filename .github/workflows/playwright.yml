@@ -107,7 +107,7 @@ jobs:
         if: always()
         run: |
           mkdir -p allure-results/history
-          cp -r allure-history/history/* allure-results/history/ || echo "No previous history found"
+          cp -r allure-history/last-history/* allure-results/history/ || echo "No previous history found"
 
       - name: Allure Report action
         uses: simple-elf/allure-report-action@master
